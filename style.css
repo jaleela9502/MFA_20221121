@@ -1,0 +1,82 @@
+
+body{
+    background-color: hsl(207, 33%, 95%);
+     padding: 20px;
+}
+header{
+    display: flex;
+}
+header .commune img{
+    padding: 20px; 
+    margin-left: 15px;
+}
+.nav ul{
+    display: flex; 
+    margin-left: 600px;
+}
+.nav li{
+    list-style: none; 
+    padding: 25px; 
+    margin-top: 15px;
+}
+.nav li:last-child{
+    background-color: hsl(255deg 43% 28%);
+    color: white;
+    border-radius: 10px;  
+}
+main{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+main .learn{
+    background-color: hsl(255deg 43% 28%);
+    margin-top: 60px;
+    color: white;
+    padding: 3px;
+    border-radius: 30px;
+    width: 500px;
+    text-align: center; word-spacing: 2px;
+    font-size: 20px;
+}
+main .learn a{
+    color: white;
+}
+.imgbig img{
+height: 400px;
+width: 300px;
+margin-left: 350px;
+margin-bottom: 40px;
+}
+.fx{
+    display: flex;
+} 
+.fx .build h1{
+    color: hsl(230, 29%, 20%); 
+    font-size: 50px;
+} 
+.fx .build p{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+} .fx .build input{
+    padding: 15px;
+    border-radius: 6px;
+    width: 300px;
+    border: 0px; 
+}
+.fx .build button{
+    padding: 15px;
+    border-radius: 6px; 
+    color: white;
+    background-color: hsl(255deg 43% 28%);
+    border: 0px;
+} footer{
+    margin-left: 25px;
+}
+footer b{
+    margin-left: 20px;
+}
+footer .images{
+    display: block; 
+    padding: 20px;
+}
